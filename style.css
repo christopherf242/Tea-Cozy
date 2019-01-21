@@ -95,7 +95,7 @@ header img  {
   background-color: black;
 }
 
-/* I might change it to make it a little more simple */
+
 h2, h3, h4 {
   margin: 0;
   padding: 10px;
@@ -119,12 +119,11 @@ h2, h3, h4 {
 .tea img {
     height: 200px;
     width: 300px;
-    margin: 20px;
+    margin: 10px;
     display: block;
 }
 
  /* Section 4: Locations section */
- /* Location Section */
 
 .flex-container.locations {
   padding-top: 5px;
