@@ -1,0 +1,186 @@
+/* Universal Styles */
+* {
+margin:0;
+padding:0;
+}
+
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+  min-width: 1100px;
+}
+
+div {
+  display: block;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+/* Section 1: Header */
+header {
+  width: 100%;
+  height: 69px;
+  position: fixed;
+  z-index: 10;
+  background-color: black;
+  border-bottom: 1px solid seashell;
+  align-items: center;
+}
+
+.flex-container {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-wrap: wrap;
+
+}
+
+/* I actually didn't need this  */
+.flex-container-featured-tea {
+ display: flex;
+ width: 100%;
+ justify-content: space-around;
+ align-items: baseline;
+ flex-wrap: wrap;
+}
+
+nav {
+  position: relative;
+  bottom: 10px;
+  text-align: right;
+  float: top;
+  flex-grow: 1;
+  margin-right: 0px;
+}
+
+nav span {
+  float: right
+  display: inline-block;
+  padding: 20px 10px;
+  margin-right: 0px;
+}
+
+a {
+  color: seashell;
+  text-decoration: underline;
+}
+
+header img  {
+  float: left;
+  height: 50px;
+  margin-left: 10px;
+}
+
+/* Section 2: Mission Statement */
+.mission-statement-background {
+  position: relative;
+  top: 69px;
+  height: 700px;
+  width: auto;
+  background-image: url('./img/img-mission-background.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#mission {
+  width: 100%;
+  background-color: black;
+}
+
+/* I might change it to make it a little more simple */
+h2, h3, h4 {
+  margin: 0;
+  padding: 10px;
+}
+
+/* Section 3: Featured Tea */
+#featured {
+  position: relative;
+  top: 69px;
+  text-align: center;
+  margin: 75px auto;
+  width: 1000px;
+  height: 700px;
+   border: 1px solid white;
+}
+
+.tea {
+  padding: 5px;
+}
+
+.tea img {
+    height: 200px;
+    width: 300px;
+    margin: 20px;
+    display: block;
+}
+
+ /* Section 4: Locations section */
+ /* Location Section */
+
+.flex-container.locations {
+  padding-top: 5px;
+}
+
+#locations {
+  background-image: url('./img/img-locations-background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 500px;
+  padding-top: 70px;
+  line-height: 2.5em;
+}
+
+#locations .flex-container {
+  margin: auto;
+  width: 1100px;
+}
+
+.location {
+  height: 250px;
+  opacity: 1.0;
+  padding: 10px;
+  margin: 15px 20px;
+  background-color: black;
+  display: flex;
+  flex-wrap: wrap;
+  flex-basis: 280px; /*Flex basis is the width. 280 + 10 padding on the left and right means
+                        that the width(which is in horizontal direction) is 300px wide. */
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* Section 5: The Tea cozy*/
+
+.the-tea-cozy {
+  height: 200px;
+  width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+  /* border: 1px solid white; */
+}
+
+#contact {
+  display: inline-block;
+  line-height: 2.5em;
+  margin-top: 10px;
+}
+
+#phone-number {
+  line-height: 2.5em;
+}
+
+/* Section 6: Footer */
+  footer {
+    text-align: left;
+    margin-left: 20px;
+  }
