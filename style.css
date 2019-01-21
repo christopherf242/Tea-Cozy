@@ -109,7 +109,7 @@ h2, h3, h4 {
   margin: 75px auto;
   width: 1000px;
   height: 700px;
-   border: 1px solid white;
+  /*border: 1px solid white; */
 }
 
 .tea {
