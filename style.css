@@ -106,8 +106,8 @@ h2, h3, h4 {
   position: relative;
   top: 69px;
   text-align: center;
-  margin: 75px auto;
   width: 1000px;
+  margin: 75px auto;
   height: 700px;
   /*border: 1px solid white; */
 }
@@ -140,8 +140,8 @@ h2, h3, h4 {
 }
 
 #locations .flex-container {
-  margin: auto;
   width: 1100px;
+  margin: auto;
 }
 
 .location {
